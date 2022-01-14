@@ -121,7 +121,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 var div = dom.find('#test>.red')[0];
 console.log(div);
 dom.style(div, 'color', 'red');
-var divList = dom.find('.red')[0];
+var divList = dom.find('.red');
 dom.each(divList, function (n) {
   return console.log(n);
 });
